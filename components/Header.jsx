@@ -16,8 +16,8 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-white/80 backdrop-blur supports-[backdrop-filter]:bg-white/60 border-b">
       <div className="container flex items-center justify-between py-4 gap-4">
-        <Link href="/" className="text-xl font-bold tracking-tight">
-          Demo <span className="text-gray-500">Shop</span>
+        <Link href="/" className="text-3xl font-bold tracking-tight">
+          U-<span className="text-gray-500">Sell</span>
         </Link>
 
         <form onSubmit={onSubmit} className="hidden md:flex items-center gap-2 flex-1 max-w-xl mx-4">

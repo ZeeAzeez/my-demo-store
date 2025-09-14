@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Demo Shop • Next.js + Shopify Storefront",
-  description: "A beautiful demo storefront built with Next.js and Shopify Storefront API",
+  description: "My Demo Website using Shopify and Next.js",
 };
 
 export default function RootLayout({ children }) {
@@ -15,9 +15,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${inter.className} min-h-screen flex flex-col`}>
         <Header />
-        <main className="flex-1">
-          {children}
-        </main>
+        <main className="flex-1">{children}</main>
         <Footer />
       </body>
     </html>
