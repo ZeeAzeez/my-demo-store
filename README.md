@@ -18,18 +18,7 @@ Includes search, variant selection, cart, and checkout.
 npm i
 ```
 
-2. Create `.env.local` (see `.env.example`):
-
-```
-SHOPIFY_STORE_DOMAIN=your-store.myshopify.com
-SHOPIFY_STOREFRONT_ACCESS_TOKEN=xxxxx
-SHOPIFY_API_VERSION=2025-04
-```
-
-3. Ensure Storefront scopes: `unauthenticated_read_product_listings`
-   (optional: tags/selling plans if you use them)
-
-4. Run dev:
+2. Run dev:
 
 ```bash
 npm run dev
