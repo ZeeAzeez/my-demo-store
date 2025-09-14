@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: 247 247 248;
+}
+
+html, body { height: 100%; }
+
+body { @apply bg-gray-50 text-gray-900; }
+
+.btn { @apply inline-flex items-center justify-center rounded-2xl px-4 py-2 font-medium shadow-soft hover:shadow-md transition; }
+.btn-primary { @apply bg-gray-900 text-white; }
+.btn-outline { @apply bg-white border; }
+
+.card { @apply bg-white rounded-3xl shadow-soft p-5; }
+
+.badge { @apply inline-flex items-center rounded-full px-3 py-1 text-xs font-medium bg-gray-100; }
+.option { @apply rounded-xl border px-3 py-2 text-sm cursor-pointer hover:bg-gray-50; }
+.option-active { @apply border-gray-900 bg-gray-900 text-white; }
+.option-disabled { @apply opacity-40 cursor-not-allowed; }
